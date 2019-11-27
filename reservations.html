@@ -72,7 +72,7 @@
             };
 
 
-            $.post("/api/characters", newReservation)
+            $.post("/api/tables", newReservation)
                 .then(function (data) {
                     console.log("add.html", data);
                     alert("Adding reservations...");
